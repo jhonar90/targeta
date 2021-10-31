@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    min-height: 90vh;
+    width: 35rem;
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+}
+
+.anillo{
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anillo img{
+    width: 20rem;
+    z-index: 2;
+}
+.circle{
+    width: 15rem;
+    height: 15rem;
+
+/**hay que buscar una convinacion de colores que vallan de acuerod con la imagen**/
+    /*background:linear-gradient(
+        to right,
+        rgba(245,70,66,0.75),
+        rgba(8,83,156,0.75)
+    );*/
+
+
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.info{
+    font-size: 1rem;
+}
+
+.info h1{
+    font-size: 2rem;
+}
+    
+
+.info h3{
+    font-size: 1.3rem;
+    padding: 1rem 0.1rem;
+    color: #585858;
+    font-weight: lighter;
+}
+
+.sizes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sizes button{
+    padding: 0.5rem 2rem;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #585858;
+    transition: all .25s;
+}
+
+.jh:hover {
+color: white;
+background: #f54642;
+}
+
+.comprar button{
+    width: 100%;
+    padding: 1rem 0rem;
+    margin-top: 1rem;
+    background: #f54642;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
+}
